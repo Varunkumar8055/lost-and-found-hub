@@ -1,0 +1,127 @@
+ body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ header {
+     background-color: #333;
+     padding: 10px;
+     text-align: center;
+     color: white;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ nav,
+ .left-nav {
+     background-color: #555;
+     padding: 10px 5px;
+     border-radius: 5px;
+ }
+
+ nav {
+     padding: 2px 0;
+ }
+
+
+
+ nav,
+ .left-nav a,
+ #logoutbtn {
+     color: white;
+     border-radius: 5px;
+     transition: background-color 0.3s;
+ }
+
+ nav a,
+ .left-nav a,
+ #logoutbtn {
+     padding: 8px 20px;
+     margin: 0 10px;
+ }
+
+ #logoutbtn {
+     margin: auto;
+     padding: 5px 20px;
+     border-radius: 0;
+ }
+
+ nav a:hover,
+ .left-nav a:hover,
+ #logoutbtn:hover {
+     background-color: #777;
+ }
+
+ .aclass {
+     color: white;
+     text-decoration: underline;
+ }
+
+ section {
+     padding: 20px;
+ }
+
+ #heading {
+     font-size: xx-large;
+     text-decoration: underline;
+ }
+
+ #left img {
+     width: 175px;
+     height: auto;
+     border: 1px solid grey;
+     border-radius: 50%;
+ }
+
+ #left {
+     display: inline-block;
+
+ }
+
+ #right {
+     display: inline;
+ }
+
+ .subDiv {
+     border: 2px solid gray;
+     border-radius: 5px;
+     padding: 10px 20px;
+     justify-content: space-between;
+     background-color: #777;
+     display: flex;
+ }
+
+ #mainDiv {
+     border: 2px solid gray;
+     border-radius: 5px;
+     margin: 0 30px;
+     height: 70%;
+     padding: 10px;
+ }
+
+ #post-img {
+     height: auto;
+ }
+
+ .postStore {
+     display: flex;
+     width: 100%;
+     border: 2px solid grey;
+     padding: 10px;
+     height: 30%;
+     border-radius: 5px;
+     gap: 10px;
+ }
+
+ .posts h2 {
+     text-decoration: underline;
+ }
+
+ .posts {
+     border: 2px solid grey;
+     width: 10%;
+     border-radius: 5px;
+ }
